@@ -1,0 +1,36 @@
+#代替properties
+server:
+  port: 8848
+
+#server：
+spring:
+  #database
+  #已经上线，使用VM
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    这里填写你的数据库所在地址
+    url: jdbc:mysql://101.42.41.45:3306/blog
+    username: root
+    password: root
+  #uploadfile
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+#Mybatis log
+
+
+mybatis:
+  configuration:
+    log-impl:  org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: false # 数据库下划线自动转驼峰标示关闭
+
+#aliyun(自己学再配)
+
+#事务管理日志
+
+
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: debug
+

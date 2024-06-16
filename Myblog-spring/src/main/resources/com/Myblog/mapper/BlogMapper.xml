@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.Myblog.mapper.BlogMapper">
+
+    <select id="GetBlogsByids" resultType="com.Myblog.pojo.Blog">
+        select * from blog where id IN
+        <foreach collection="blogids" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </select>
+
+
+    <update id="UpdateBlog">
+        update blog
+        <set>
+            <if test="blog_topic != null and blog_topic != '' ">
+                blog_topic = #{blog_topic},
+            </if>
+            <if test="blog_text != null and blog_text != '' ">
+                blog_text = #{blog_text},
+            </if>
+            <if test="update_time != null">
+                update_time = #{update_time},
+            </if>
+        </set>
+        where id = #{id}
+
+    </update>
+
+</mapper>
