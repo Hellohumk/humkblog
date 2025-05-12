@@ -14,40 +14,40 @@ import Login from '../views/login/loginIn.vue'
 
 const routes = [
   {
-    path: '/personal/Home',
+    path: '/api/personal/Home',
     name: 'personalhome',
     component: PersonalHome
   },
   {
-    path: '/personal/Like',
+    path: '/api/personal/Like',
     name: 'personallike',
     component: PersonalLike
   },
   {
-    path: '/personal/Blog',
+    path: '/api/personal/Blog',
     name: 'personalblog',
     component: PersonalBlog
   },
   {
-    path: '/personal/Commit',
+    path: '/api/personal/Commit',
     name: 'personalcommit',
     component: PersonalCommit
   },
 
 
   {
-    path: '/blog/Home',
+    path: '/api/blog/Home',
     name: 'bloghome',
     component: BlogHome
   },
   {
-    path: '/blog/Page/:blog_id',
+    path: '/api/blog/Page/:blog_id',
     name: 'pagetext',
     component: PageText
   },
 
   {
-    path: '/login',
+    path: '/api/login',
     name: 'loginin',
     component: Login
   },

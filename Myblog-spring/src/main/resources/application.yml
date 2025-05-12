@@ -9,9 +9,9 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
 #    这里填写你的数据库所在地址
-    url: jdbc:mysql://101.42.41.45:3306/blog
+    url: jdbc:mysql://127.0.0.1:3306/blog
     username: root
-    password: root
+    password: 123456
   #uploadfile
   servlet:
     multipart:
