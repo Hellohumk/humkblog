@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e257fff-4d22-40ab-9ff5-de5e6db2e5c0" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/Myblog-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog-spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog-spring/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog-spring/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/router/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="8e257fff-4d22-40ab-9ff5-de5e6db2e5c0" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,12 +49,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "20250512-devtest",
     "last_opened_file_path": "D:/Nginx/nginx-1.17.3/html/blog",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "SDK",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.47931033",
@@ -93,6 +90,7 @@
       <workItem from="1746535263382" duration="4396000" />
       <workItem from="1746540182049" duration="133000" />
       <workItem from="1746540323352" duration="15000" />
+      <workItem from="1747011984897" duration="879000" />
     </task>
     <servers />
   </component>
